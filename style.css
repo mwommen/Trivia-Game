@@ -31,3 +31,7 @@ p {
 .endOfQuizBtn {
     text-align: center;
 }
+
+#timeClock {
+    color: white;
+}

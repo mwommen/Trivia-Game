@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- Html -->
+<html lang="en">
+<!-- Head -->
+<head>
+<title>Coming soon</title>
+  <!-- Meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+  <!-- Meta tags -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- stylesheet -->      
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script><!-- Supportive-JavaScript -->
+ <!--fonts-->
+    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext" rel="stylesheet">
+<!--/fonts-->
+</head>
+<!-- //Head -->
+<!-- Body -->
+  <body>
+  <!-- main-section -->
+    <div class="container clock">
+        <div class="content">
+            <div id="large-header" class="large-header">
+                <canvas id="myCanvas"></canvas>
+                <div class="main-title">
+                    <h1>Temperature Sensor <br /> coming soon</h1>
+                    <div class="between"></div>
+                    <p class="agileinfo txt-center"> &copy; Janneke 2018</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /main-section -->
+  <!-- Counter required files -->
+    <link rel='stylesheet' href='css/dscountdown.css' type='text/css' media='all' />
+    <script type="text/javascript" src="js/dscountdown.min.js"></script>
+    <script src="js/clock.js"></script>
+    <script>
+        jQuery(document).ready(function($){                     
+            $('.between').dsCountDown({
+                endDate: new Date("Januari 17, 2018 17:30:00"),
+                theme: 'black'
+                });                         
+        });
+    </script>
+ <!-- //Counter required files -->
+ <!-- particles effect -->
+    <script src="js/particles.min.js"></script>
+    <script>
+      window.onload = function() {
+        Particles.init({
+          selector: '#myCanvas',
+          color: '#6a446b',
+          connectParticles: true,
+          minDistance: 70
+        });
+      };
+    </script>
+<!-- //particles effect -->
+</body>
+<!-- //Body -->
+</html>
+<!-- //Html -->
