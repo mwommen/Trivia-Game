@@ -7,6 +7,11 @@ h1 {
     color: #C41E3A;
     font-weight: 500;
     font-size: 65px;
+    
+}
+
+h1:hover {
+    background-color: white;
 }
 
 h4 {
@@ -34,5 +39,9 @@ p {
 
 #timeClock {
     color: white;
+}
+
+.main-contianer {
+    text-align: center;
 }
 

@@ -42,9 +42,10 @@ function submitForm() {
             //We ahve aincorrect answer
             console.log('incorrect');
             incorrect++;
-
+            
        }
    }
+   
 
    var unanswered= 10 - (correct + incorrect);
     var mainContainer = document.querySelector('div[name="main-container"]');
