@@ -14,20 +14,20 @@
 <header> 
     <h1>Cardinals Trivia Game!</h1>
 </header>
-
+<div name="main-container">
 <div class="timeRemaining">
     <h4>Time Remaining: <span id="timeClock"></span></h4>
 </div>
 
 <div class="quizForm">
-<form method="post" action="mailto:raizen@mail.utexas.edu?subject=Vocabulary Quiz 1" enctype="text/plain">
+<!-- <form method="post" action="mailto:raizen@mail.utexas.edu?subject=Vocabulary Quiz 1" enctype="text/plain"> -->
 
 Check the answer to each multiple-coice question, and click on the "Send Form" button to submit the information.
 
 <P>1.  In his first Major League at-bat, Cardinals pitcher Adam Wainwright accomplished which feat?<BR></p>
 <input type="radio" name="1.Adam Wainwright at bat" value="maison">Hit a Game-Winning Single<BR>
 <input type="radio" name="1.Adam Wainwright at bat" value="quatre">Hit A Triple<BR>
-<input type="radio" name="1.Adam Wainwright at bat" value="soleil">Hit A Home Run<BR>
+<input type="radio" name="1.Adam Wainwright at bat" data-r="t" value="soleil">Hit A Home Run<BR>
 <input type="radio" name="1.Adam Wainwright at bat" value="poisson">Hit Into A Triple Play<BR>
 
 
@@ -37,7 +37,7 @@ Check the answer to each multiple-coice question, and click on the "Send Form" b
 <P>2. The Cardinals' team mascot, a giant cardinal, is known by which name?<BR></p>
 <input type="radio" name="2. Team-mascot" value="maison">Tweet Tweet<BR>
 <input type="radio" name="2. Team-mascot" value="valise">Red<BR>
-<input type="radio" name="2. Team-mascot" value="soleil">Fredbird<BR>
+<input type="radio" name="2. Team-mascot" data-r="t" value="soleil">Fredbird<BR>
 <input type="radio" name="2. Team-mascot" value="poisson">Cardinal Carl<BR>
 
 
@@ -46,59 +46,59 @@ Check the answer to each multiple-coice question, and click on the "Send Form" b
 <P>3. Tim McCarver, well-known commentator, played several seasons for the Cardinals at which position?<BR></p>
 <input type="radio" name="Tim-McCarver" value="renard">Right Fielder<BR>
 <input type="radio" name="Tim-McCarver" value="valise">pitcher<BR>
-<input type="radio" name="Tim-McCarver" value="soleil">Catcher<BR>
+<input type="radio" name="Tim-McCarver" data-r="t" value="soleil">Catcher<BR>
 <input type="radio" name="Tim-McCarver" value="poisson">Shortstop<BR>
 
 
-<P>4. In the 2011 World Series, which cardinals player hit a game winning homerun to send the World series to game 7?<BR></p>
-    <input type="radio" name="Tim McCarver" value="renard">Albert Pujols<BR>
-    <input type="radio" name="Tim McCarver" value="valise">David Freese<BR>
-    <input type="radio" name="Tim McCarver" value="soleil">Lance Berkman<BR>
-    <input type="radio" name="Tim McCarver" value="poisson">Ryan Theriot<BR>
+    <P>4. In the 2011 World Series, which cardinals player hit a game winning homerun to send the World series to game 7?<BR></p>
+    <input type="radio" name="Tim McCarver-1" value="renard">Albert Pujols<BR>
+    <input type="radio" name="Tim McCarver-1" data-r="t" value="valise">David Freese<BR>
+    <input type="radio" name="Tim McCarver-1" value="soleil">Lance Berkman<BR>
+    <input type="radio" name="Tim McCarver-1" value="poisson">Ryan Theriot<BR>
     
 
     
-<P>5. What team was the first to skunk the Cardinals, 4 games to 0 in a World Series?<BR></p>
-    <input type="radio" name="Tim McCarver" value="renard">Yankees<BR>
-    <input type="radio" name="Tim McCarver" value="valise">Red Sox<BR>
-    <input type="radio" name="Tim McCarver" value="soleil">Never been swept<BR>
-    <input type="radio" name="Tim McCarver" value="poisson">Athletics<BR>
+    <P>5. What team was the first to skunk the Cardinals, 4 games to 0 in a World Series?<BR></p>
+    <input type="radio" name="Tim McCarver-2" value="renard">Yankees<BR>
+    <input type="radio" name="Tim McCarver-2" data-r="t" value="valise">Red Sox<BR>
+    <input type="radio" name="Tim McCarver-2" value="soleil">Never been swept<BR>
+    <input type="radio" name="Tim McCarver-2" value="poisson">Athletics<BR>
         
 
 
-<P>6. Whose dramatic homerun caused Cardinal announcer Jack Buck to scream "Go crazy folks! Go crazy!"<BR></p>
-        <input type="radio" name="Tim McCarver" value="renard">Ozzie Smith<BR>
-        <input type="radio" name="Tim McCarver" value="valise">Mark McGwire<BR>
-        <input type="radio" name="Tim McCarver" value="soleil">Albert Pujols<BR>
-        <input type="radio" name="Tim McCarver" value="poisson">Tom Lawless<BR>
+    <P>6. Whose dramatic homerun caused Cardinal announcer Jack Buck to scream "Go crazy folks! Go crazy!"<BR></p>
+        <input type="radio" name="Tim McCarver-3" data-r="t" value="renard">Ozzie Smith<BR>
+        <input type="radio" name="Tim McCarver-3" value="valise">Mark McGwire<BR>
+        <input type="radio" name="Tim McCarver-3" value="soleil">Albert Pujols<BR>
+        <input type="radio" name="Tim McCarver-3" value="poisson">Tom Lawless<BR>
             
 
             <P>7. The Cardinals won three National League pennants in the 1980s, but only one World Series. In which year did they win the World Series?<BR></p>
-                <input type="radio" name="Tim McCarver" value="renard">1984<BR>
-                <input type="radio" name="Tim McCarver" value="valise">1985<BR>
-                <input type="radio" name="Tim McCarver" value="soleil">1989<BR>
-                <input type="radio" name="Tim McCarver" value="poisson">1983<BR>
+                <input type="radio" name="Tim McCarver-4" value="renard">1984<BR>
+                <input type="radio" name="Tim McCarver-4" data-r="t" value="valise">1985<BR>
+                <input type="radio" name="Tim McCarver-4" value="soleil">1989<BR>
+                <input type="radio" name="Tim McCarver-4" value="poisson">1983<BR>
                 
 
                 <P>8. What retired Cardinal wore number 1?<BR></p>
-                    <input type="radio" name="Tim McCarver" value="renard">Edgar Renteria<BR>
-                    <input type="radio" name="Tim McCarver" value="valise">Ozzie Smith<BR>
-                    <input type="radio" name="Tim McCarver" value="soleil">Fernando Vina<BR>
-                    <input type="radio" name="Tim McCarver" value="poisson">So Taguchi<BR>
+                    <input type="radio" name="Tim McCarver-5" value="renard">Edgar Renteria<BR>
+                    <input type="radio" name="Tim McCarver-5" data-r="t" value="valise">Ozzie Smith<BR>
+                    <input type="radio" name="Tim McCarver-5" value="soleil">Fernando Vina<BR>
+                    <input type="radio" name="Tim McCarver-5" value="poisson">So Taguchi<BR>
                     
 
                     <P>9. Who was the Cardinal's manager in 2002?<BR></p>
-                        <input type="radio" name="Tim McCarver" value="renard">Mike Matheney<BR>
-                        <input type="radio" name="im McCarver" value="valise">Tony Larussa<BR>
-                        <input type="radio" name="Tim McCarver" value="soleil">Whitey Herzog<BR>
-                        <input type="radio" name="Tim McCarver" value="poisson">Joe Torre<BR>
+                        <input type="radio" name="Tim McCarver-6" value="renard">Mike Matheney<BR>
+                        <input type="radio" name="im McCarver-6" data-r="t" value="valise">Tony Larussa<BR>
+                        <input type="radio" name="Tim McCarver-6" value="soleil">Whitey Herzog<BR>
+                        <input type="radio" name="Tim McCarver-6" value="poisson">Joe Torre<BR>
                         
 
                         <P>10. How many World Series appearances did the Cardinals have in the 21st century?<BR></p>
-                            <input type="radio" name="3. Tim McCarver" value="renard">Two<BR>
-                            <input type="radio" name="3. Tim McCarver" value="valise">Four<BR>
-                            <input type="radio" name="3. Tim McCarver" value="soleil">Three<BR>
-                            <input type="radio" name="3. Tim McCarver" value="poisson">One<BR>
+                            <input type="radio" name="3. Tim McCarver-7" value="renard">Two<BR>
+                            <input type="radio" name="3. Tim McCarver-7" data-r="t" value="valise">Four<BR>
+                            <input type="radio" name="3. Tim McCarver-7" value="soleil">Three<BR>
+                            <input type="radio" name="3. Tim McCarver-7" value="poisson">One<BR>
                         
 </div>
 
@@ -107,10 +107,10 @@ Check the answer to each multiple-coice question, and click on the "Send Form" b
 <br>
 <br>
 <div class="endOfQuizBtn">
-<input type="submit" value="Send Form">
+<input onclick="submitForm()" type="submit" value="Send Form">
 <input type="reset" value="Clear Form">
 </div>
-</form>
+</div>
  
 </body>
 </html>
