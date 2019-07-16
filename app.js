@@ -1,6 +1,6 @@
 
 //Countdown timer 
-var timeLeft = 10;
+var timeLeft = 60;
 var downloadTimer = setInterval(function(){
   document.getElementById("timeClock").innerHTML = timeLeft + " seconds remaining";
   timeLeft -= 1;
@@ -10,22 +10,7 @@ var downloadTimer = setInterval(function(){
     //document.getElementById("timeClock").innerHTML = "Finished"
   }
 }, 1000);
-
-
-//Redirciting to score page after timer is up
-
-// var redirect = "https://www.espn.com/";
-
-// function timerRedirect() {
-//      timeClock = document.getElementById("timeClock");
-//      if (count > 0);{
-//         timeLeft--;
-//         timeClock.innerHTML = "+timeLeft+" + "Seconds";
-//         setTimeout("timerRedirect()", 1000)
-//         console.log(timeClock)
-
-//      
-     
+    
 
 function submitForm() {
    var selectedInputs =  document.querySelectorAll('input:checked');
@@ -51,18 +36,26 @@ function submitForm() {
     var mainContainer = document.querySelector('div[name="main-container"]');
     var correctAns = document.createElement('p');
     correctAns.innerText = 'Correct: ' + correct;
+
     var wrongAns = document.createElement('p');
     wrongAns.innerText = "Wrong: " + incorrect;
+
     var unansweredAns = document.createElement('p');
     unansweredAns.innerText = "Unanswered: " + unanswered;
+    
+
     var containerDiv = document.createElement('div');
+    containerDiv.style.textAlign="center";
     containerDiv.appendChild(correctAns);
     containerDiv.appendChild(wrongAns);
     containerDiv.appendChild(unansweredAns);
     mainContainer.innerHTML = '';
     mainContainer.appendChild(containerDiv);
-//DO something here
+
+   
+
 }
+
 
 
 
